@@ -1,0 +1,64 @@
+/* ISTRUZIONI GENERICHE DI PAGINA */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* ISTRUZIONI CONTAINER */
+.container{
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.layover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.title{
+  color:white;
+  text-align: center;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.title h1{
+  font-size: 60px;
+}
+
+.title h4{
+  font-size: 20px;
+}
+
+
+/* istruzioni per definire il background dei container */
+.container.uno{
+  background-image: url(../img/firenze.jpg);
+}
+
+.container.due{
+  background-image: url(../img/torino.jpg);
+}
+
+.container.tre{
+  background-image: url(../img/roma.jpg);
+}
+
+.container.quattro{
+  background-image: url(../img/matera.jpg);
+}
+
+.container.cinque{
+  background-image: url(../img/milano.jpg);
+}
