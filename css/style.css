@@ -7,7 +7,7 @@
 
 /* ISTRUZIONI CONTAINER */
 .container{
-  height: 100vh;
+  height: calc(100vh - 20px);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
